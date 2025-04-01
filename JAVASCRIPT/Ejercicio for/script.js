@@ -85,4 +85,16 @@ document.getElementById("avg").addEventListener("click", function() {
     document.getElementById("res_avg").textContent = `Media global: ${calcularMedia(allTemps)}°C`;
 });
 
+fetch('tiempo.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Error al cargar el archivo JSON');
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log('Datos cargados:', data);
+    // Aquí puedes manipular el DOM o usar los datos según necesites
+  })
+  .catch(error => console.error('Hubo un error:', error));
 

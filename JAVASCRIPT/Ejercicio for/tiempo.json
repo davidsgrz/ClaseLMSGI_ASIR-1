@@ -1,0 +1,29 @@
+{
+    "localidades": [
+      {
+        "nombre": "Vera",
+        "temperaturaMinima": 16,
+        "temperaturaMaxima": 27,
+        "temperaturaMedia": 22.71
+      },
+      {
+        "nombre": "Huércal-Overa",
+        "temperaturaMinima": 32,
+        "temperaturaMaxima": 37,
+        "temperaturaMedia": 34.14
+      },
+      {
+        "nombre": "Albox",
+        "temperaturaMinima": 12,
+        "temperaturaMaxima": 26,
+        "temperaturaMedia": 15.57
+      },
+      {
+        "nombre": "Mojácar",
+        "temperaturaMinima": 25,
+        "temperaturaMaxima": 25,
+        "temperaturaMedia": 25.00
+      }
+    ]
+  }
+  
