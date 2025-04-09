@@ -1,5 +1,10 @@
 let temperaturas = [];
 
+/**
+ * Carga los datos desde un archivo JSON y los almacena en la variable temperaturas.
+ * También configura el select de localidades con los nombres de las localidades disponibles.
+ */
+
 async function cargarDatos() {
     try {
         const response = await fetch("datos.json");
